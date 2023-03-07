@@ -1,0 +1,54 @@
+@import '../../styles/colors'   ;
+@import '../../styles/fonts';
+.flex{
+    display: flex;
+    align-items: center;
+    
+       
+}
+.navbar{
+    background-color: $main_color;
+    font-family: 'Open Sans';
+    
+    .flexbox{
+        @extend .flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        width: 100%;
+        
+        .logo{
+            width: 20%;
+            img{ width: 100px;}
+        }
+        .navbar-links{
+            width: 80%;
+            display: flex;
+            ul{
+                list-style: none;
+                @extend .flex;
+                justify-content: space-evenly;
+                width: 100%;
+                li{
+                    cursor: pointer;
+                    color: $navbar_color;
+                    font-size: 15px;
+                    font-weight: 700;
+                    transition: .4s ease-in-out;
+                }:hover{
+                    color: $secondry_color;
+                }
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-radius: 4px;
+                background-color: $navbar_color;
+                color: $white_color;
+                
+                box-shadow: 0px 0px 15px 2px #0000001c;
+            }
+        }
+}
+}

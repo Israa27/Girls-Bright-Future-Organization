@@ -1,0 +1,18 @@
+@import '../../../styles/colors'   ;
+@import '../../../styles/fonts';
+
+@import '../Our\ mission\ section/ourMission.scss';
+.vision-section{
+    @extend .mission-section;
+.image{
+   
+        &:after{
+        
+        background-color: $header_btn_color ;
+    }
+    &:before{
+        
+        background-color: $header_btn_color ;
+    }
+}
+}

@@ -1,0 +1,71 @@
+@import '../../../styles/colors'   ;
+@import '../../../styles/fonts';
+
+.image_style{
+    width: 340px;
+    height: 300px;
+    border-radius: 5px; 
+}
+.mission-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+    z-index: 1;
+    margin-top: 4rem;
+    .text{
+       
+        span{
+            text-transform: uppercase;
+            font-size: 40px;
+            font-family: 'Open sans';
+            font-weight: 700;
+            color:$secondry_color
+        }
+        p{
+            font-family: "Open sans";
+            font-weight: 600;
+            line-height: 30px;
+            width: 37rem;
+            margin-top: 32px;
+        }
+    }
+    .image{
+        position: relative;
+        margin-right: 29px;
+        .over-background{
+            @extend .image_style;
+            background-color: rgba(29, 0, 27, 0.27);
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+        }
+       
+        img{@extend .image_style}
+        &:after{
+        content: "";
+        width: 160px;
+        height: 341px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: -1;
+        left: -23px;
+        top: -17px;
+        box-shadow: 0px 0px 6px #c9c9c994;
+        background-color: $mission_bg_color;
+    }
+    &:before{
+        content: "";
+        width: 160px;
+        height: 280px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: -1;
+        right: -30px;
+        top: 39px;
+        box-shadow: 0px 0px 6px rgb(201 201 201 / 58%);
+        background-color: $mission_bg_color;
+    }
+       
+    }
+}
