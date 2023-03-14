@@ -12,20 +12,20 @@ export default function Navbar() {
     },
     {
       name:'about us',
-      link:'/'
+      link:'/about_us'
     },
     {
       name:'our programs',
-      link:'/'
+      link:'/our_programs'
 
     },
     {
       name:'get involved',
-      link:'/'
+      link:'/get_involved'
 
     },{
       name:'blog',
-      link:'/'
+      link:'/blogs'
     },
     {
       name:'contact us',

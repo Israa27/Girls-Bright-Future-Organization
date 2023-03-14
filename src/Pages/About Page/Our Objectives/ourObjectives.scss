@@ -1,0 +1,81 @@
+@import '../../../styles/colors'   ;
+@import '../../../styles/fonts';
+.circle{
+   position: absolute;
+   width: 14px;
+   height: 14px;
+   background-color: #E34AAB;
+   border-radius: 50%;
+}
+.our-objectives{
+    
+    .header-our-objectives{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: $font_team_color;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        width: 300px;
+        margin: auto;
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 85px;
+            height: 3px;
+            background-color: #E34AAB;
+            top: 27px;
+            border-radius: 3px;
+            left: 7rem;
+        }
+    }
+    .figure{
+        position: relative;
+        margin-bottom: 27rem;
+        margin-top: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+           
+            position: absolute;
+            img{width: 270px;}
+            p{
+                font-size: 15px;
+                line-height: 1.7;
+                width: 20rem;
+                color: $blog_text_color;
+            }
+            }
+            .item_0{
+                top:-18rem
+            }
+            .item_1{
+                top: 0rem;
+                left: -22rem;
+            }
+            .item_2{
+                top: 1rem;
+                left: 20rem;
+            }
+            .item_3{
+                top: 17rem;
+                left: -22rem;
+            }
+            .item_4{    
+                top: 28rem;
+                left: 20rem;
+            }
+            .item_5{
+                bottom: -21rem;
+                left: 0px;
+
+            }
+    }
+}

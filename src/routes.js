@@ -18,14 +18,33 @@ import React, {lazy} from 'react';
 
     {
       exact: true,
-      path: '/get_involved',
+      path: '/our_programs',
       element: layouts
     },
-    
+    {
+      exact: true,
+      path: '/program_details',
+      element: layouts
+    },
     {
       exact: true,
       path: '/contact',
       element: contcat
+    },
+    {
+      exact: true,
+      path: '/blogs',
+      element: layouts
+    },
+    {
+      exact: true,
+      path: '/post_details',
+      element: layouts
+    },
+    {
+      exact: true,
+      path: '/get_involved',
+      element: layouts
     },
     
     

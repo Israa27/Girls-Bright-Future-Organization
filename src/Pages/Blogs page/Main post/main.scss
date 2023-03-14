@@ -1,0 +1,42 @@
+@import '../../../styles/colors'   ;
+@import '../../../styles/fonts';
+.main-post{
+    font-family: 'Open sans';
+    position: relative;
+    
+    
+    cursor: pointer;
+    .image-main-post{
+        width: 100%;
+        height: 100%;
+        img{width: 100%;border-radius: 5px; height: 100%;}
+    }
+    .text-main-post{
+        
+        background-color: rgba($secondry_color,0.4);
+        position: absolute;
+        bottom: 0rem;
+        height: 100px;
+        width: 100%;
+        border-radius: 5px;
+        color: $white_color;
+        padding: 10px;
+        span{ 
+            font-family: 'Lato', sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+           
+            
+        }
+    }
+
+    &:hover .text-main-post{
+        transition: .7s ease-in-out;
+        height: 100%;
+        span{
+            
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+}

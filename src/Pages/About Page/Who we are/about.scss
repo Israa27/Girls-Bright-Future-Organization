@@ -1,0 +1,48 @@
+@import '../../../styles/colors'   ;
+@import '../../../styles/fonts';
+.box-shadow{
+    width: 213px;
+    height: 100%;
+    background-color: #e4e5fe;
+    position: absolute;
+    top: -22px;
+    border-radius: 11px;
+    z-index: -1;
+}
+.who-we-are-content{
+    font-family: 'open sans';
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "open sans";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    .image{
+        position: relative;
+        width: 80%;
+       height: 80%;
+        img{width: 100%; border-radius: 4px;height: 100%;}
+    &::after{
+        content: "";
+        @extend .box-shadow;
+        top: 22px;
+        right: -26px;
+      
+    }
+    &::before{
+        content: "";
+        @extend .box-shadow;
+        top: -22px;
+        left: -32px;
+   
+    }
+    }
+    .text{
+        span{color: $top_post_bg_color; font-size: 20px; font-weight: bold;margin-bottom: 20px;}
+        p{
+            font-size: 16px;
+            line-height: 1.7;
+            color: #595959;
+        }
+    }
+}

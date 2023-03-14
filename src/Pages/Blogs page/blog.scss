@@ -1,0 +1,20 @@
+.blog-content{
+   
+    margin-top: 30px;
+    display: grid;
+    
+    
+    .row_1{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 25px;
+        margin-bottom: 30px;
+        
+    }
+.row_2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-bottom: 6rem;
+}
+}

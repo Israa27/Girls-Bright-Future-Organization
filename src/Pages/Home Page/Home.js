@@ -8,12 +8,13 @@ import OurVision from './Our vision section/OurVision'
 
 export default function Home() {
   return (
-    <Container>
+    <div>
     <HeaderSection/>
     <OurMission/>
     <OurVision/>
     <CoreValuesSection/>
     <BlogSection/>
-    </Container>
+    </div>
+    
   )
 }

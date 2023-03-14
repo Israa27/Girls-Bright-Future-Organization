@@ -8,6 +8,10 @@ import ContcatUs from '../Pages/Contcat page/ContcatUs';
 import GetInvolved from '../Pages/Get Involved page/GetInvolved';
 import { useLocation } from 'react-router-dom';
 import './layout.scss'
+import OurProjectsPage from '../Pages/Our Projects page/OurProjectsPage';
+import ProjectDetails from '../Pages/Project Details page/ProjectDetails';
+import Container from '../Components/Container/Container';
+import PostDetails from '../Pages/Post details page/PostDetails';
 export default function Layouts() {
   const location = useLocation()
   const renderContent = (routeName) => {
@@ -19,6 +23,12 @@ export default function Layouts() {
         return <Blogs/>
       case '/contcat':
         return <ContcatUs />
+      case '/our_programs':
+        return <OurProjectsPage/>
+      case '/program_details':
+        return <ProjectDetails/>
+      case '/post_details':
+        return <PostDetails/>
       case '/about_us':
         return <AboutUs />
       case '/get_involved':
@@ -32,9 +42,9 @@ export default function Layouts() {
   return<div className='layout'>
 
       <Navbar />
- 
+      <Container>
         {renderContent(location.pathname)}
-
+        </Container>
         
       <Footer />
     

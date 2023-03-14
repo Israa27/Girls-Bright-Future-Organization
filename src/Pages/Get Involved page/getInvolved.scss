@@ -1,0 +1,108 @@
+@import '../../styles/colors'   ;
+@import '../../styles/fonts';
+
+.get-involved{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    .get-involved-content{
+       
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 20px;
+        grid-template-areas: 'volunteer_box  volunteer_box' 
+        'internship-box  join-us-box'
+        'donate-box  donate-box';
+        margin: 2rem auto;
+       
+        .volunteer-box{
+            background-color: $top_post_bg_color;
+            border-radius: 5px;
+            position: relative;
+            height: 20rem;
+            
+            width: 100%;
+            display: flex;
+            align-self: end;
+            grid-area: volunteer_box;
+            padding-right: 20px;
+            padding-right: 20px;
+            box-shadow: 0 0 16px #dadada;
+            .text{
+                padding: 30px;
+                span{
+                    font-size: 25px;
+                    color: $white_color;
+                    font-weight: bold;
+                    white-space: pre-line;
+                    line-height: 35px;
+                }
+                p{
+                    color: #cecece;
+                    line-height: 1.7;
+                    white-space: pre-line;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    font-size: 19px;
+                }
+            
+                button{
+                    border: none;
+                    width: 160px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    height: 45px;
+                    color: $white_color;
+                    background-color: $btn_get_color;
+                    border-radius: 3px;
+                    box-shadow: 0px 0px 9px #d24a4aa3;;
+            
+                }
+            }
+            .image{
+                width: 423px;
+                position: absolute;
+                right: 79px;
+                bottom: -1px;
+                img{width: 100%;}
+            }
+            
+
+        }
+        .internship-box{
+            background-color:$get_bg_color;
+            grid-area: internship-box;
+            border-radius: 5px;
+            color: $top_post_bg_color;
+            display: flex;
+            font-size: 20px;
+            font-weight: 700;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            height: 20rem;
+            box-shadow: 0 0 16px #dadada;
+            .image{
+                width: 250px;
+                img{width: 100%;}
+            }
+
+        }
+        .join-us-box{
+            background-color:$get_bg2_color;
+            grid-area:join-us-box;
+            @extend .internship-box
+        }
+        .donate-box{
+            @extend .volunteer-box;
+            .image{
+                width: 581px;
+                position: absolute;
+                right: 45px;
+                bottom: 9px;
+                img{width: 100%;}
+            };
+            grid-area:donate-box
+        }
+    }
+}
