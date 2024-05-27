@@ -1,4 +1,4 @@
-# Organization Website
+# Girls Bright Future Organization Website
 
 This project is an organization's dynamic and responsive website, built using React.js and SCSS. The site includes multiple sections to provide information about the organization, its programs, and ways to get involved.
 
@@ -25,22 +25,25 @@ Check out the live demo of the project: [Live Demo](https://grils-bright-future-
 
 ## Screenshots
 *Home Page*
-![home page (1)](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/9780f1ed-5283-428f-ab17-38aa9fc2b889)
+![home page](https://drive.google.com/uc?export=view&id=1iABbqhK9Xpf3l1HcytZwbischuI8Xq0D)
 
 *About Us*
-![about as page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/15ec1ae2-d385-4c36-b6e4-62696f5d0bba)
+![about as page](https://drive.google.com/uc?export=view&id=18TogwH_ee7BCAmPjW8-AQ6AuSxZyAE4c)
+
 
 *Our Programs*
-![our projects page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/a9d42a7a-21dc-45db-8c11-307a3de3d818)
+![our projects page](https://drive.google.com/uc?export=view&id=193QJx_Pzrb5BI0XL-qQSs285kqu1to-E)
+
 
 *Get Involved*
-![get involved page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/a67bfbf3-8c6f-476a-bc2d-8bcb6ef599fd)
+![get involved page](https://drive.google.com/uc?export=view&id=1Wri47sdWUQR7bp4ovABUh29L_GJ7NEWx)
 
 *Blog*
-![blogs page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/e5284e1f-82d4-4e60-9305-704e9b2af229)
+![blog page](https://drive.google.com/uc?export=view&id=1B7IsOrAxMjAG6MJ1LuQX-n_WbPuHSiAI)
 
 *Contact Us*
-![contcat page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/8ed70ac5-4f29-4d88-810e-08be7da916c7)
+![contcat page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/f6865257-439e-4a60-9630-574e5a6bcea6)
+
 
 ## Design
 
