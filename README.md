@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Organization Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an organization's dynamic and responsive website, built using React.js and SCSS. The site includes multiple sections to provide information about the organization, its programs, and ways to get involved.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Design](#design)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home**: A welcoming landing page with key information and navigation links.
+- **About Us**: Detailed information about the organization's mission, vision, and team members.
+- **Our Programs**: Overview of various programs and initiatives, each with its own page.
+- **Get Involved**: Information on how users can participate or contribute.
+- **Blog**: A blog section with articles and updates, featuring dynamic content rendering.
+- **Contact Us**: A contact form and contact information.
+- **Donate**: A secure donation page integrated with a payment gateway.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Check out the live demo of the project: [Live Demo](https://grils-bright-future-orgnaiztion.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+*Home Page*
+![home page (1)](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/9780f1ed-5283-428f-ab17-38aa9fc2b889)
 
-### `npm run build`
+*About Us*
+![about as page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/15ec1ae2-d385-4c36-b6e4-62696f5d0bba)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Our Programs*
+![our projects page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/a9d42a7a-21dc-45db-8c11-307a3de3d818)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Get Involved*
+![get involved page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/a67bfbf3-8c6f-476a-bc2d-8bcb6ef599fd)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Blog*
+![blogs page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/e5284e1f-82d4-4e60-9305-704e9b2af229)
 
-### `npm run eject`
+*Contact Us*
+![contcat page](https://github.com/Israa27/girls-bright-future-organization/assets/83101136/8ed70ac5-4f29-4d88-810e-08be7da916c7)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+View the design mockups in Figma: [Figma Design](https://www.figma.com/design/P0AVjUw7w5lJ3uMKszfDIM/Girls-Bright-Future-website?node-id=0-1&t=wcciuIQzQgnsZ80X-1)
